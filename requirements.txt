@@ -1,0 +1,36 @@
+# Core Data Science & ML
+pandas
+numpy
+scikit-learn
+torch==2.7.1 # Versión actualizada
+torchvision==0.22.1
+torchsummary==1.5.1
+timm==1.0.18
+
+# Audio Processing
+librosa
+scipy
+
+# Visualization
+matplotlib
+seaborn
+torchviz==0.0.3 # Añadido
+graphviz==0.21 # Añadido
+
+# API & Serving
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Kaggle API
+kagglehub
+
+# Linter & Formatter
+black
+flake8
+
+# Computer Vision & Explanability
+Pillow==11.3.0 # Añadido
+grad-cam==1.5.5 # Añadido
+ttach==0.0.3 # Añadido
+opencv-python==4.12.0.88 # Añadido
