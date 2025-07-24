@@ -90,19 +90,23 @@ curl -X POST -F "audio_file=@path/to/file.wav" http://localhost:8000/predict
 
 ## 🧪 5. Repository Structure
 
+## 🔬 5. Repository Structure (Updated)
+
 ```
 proyecto_cero/
-├── data/
-│   └── spectrograms/            # Data organized by class
+├── assets/                      # Visual assets (confusion matrix, model diagrams, etc.)
 ├── models/                      # Trained models (.pth / .joblib)
-├── notebooks/                   # Development notebooks
-├── src/                         # Inference and training modules
-├── tests/                       # Unit tests (incl. API tests)
-├── api.py                       # FastAPI app
-├── Dockerfile                   # Docker config
-├── requirements.txt             # Dependencies
-└── README.md
+├── notebooks/                   # Jupyter notebooks for EDA, training, evaluation
+├── src/                         # Core modules for training, inference, preprocessing
+├── .dockerignore                # Docker ignore config
+├── .gitignore                   # Git ignore config
+├── Dockerfile                   # Docker configuration for building the image
+├── README.md                    # Project documentation
+├── api.py                       # FastAPI app definition
+├── test_api.py                  # Test script for the FastAPI endpoint
+├── requirements.txt             # Python dependencies
 ```
+
 
 ---
 
